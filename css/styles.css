@@ -1,0 +1,98 @@
+
+.TituloOferta,.SubTituloOferta{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.TituloOferta{
+    margin-top: 60px;
+}
+
+
+body{
+background-color: rgba(54, 54, 54, 0.993);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imgOferta{
+    height: 380px;
+    width: 460px;
+    object-fit: cover;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 4px white double;
+}
+
+.CenterImg{
+    margin-top: 40px;
+    text-align: center;
+}
+.Center{
+    text-align: center;
+}
+
+.ImgPrice,.Price,.Name,.Categorie,.infoGame{
+    color: white;
+}
+
+.TagGames{
+    color: white;
+    font-size: 20px;
+    background: #4e4e4e;
+    padding: 16px;
+    border-radius: 16px;
+    width: fit-content;
+    margin-top: 100px;
+}
+.LatestGames{
+    padding-left: 40px;
+}
+
+.footer{
+    background-color:#4e4e4e;
+    height: 100px;
+    margin-top: 60px;
+    border-top: 1px solid white;
+}
+.footer p{
+    color: white;
+    margin: 16px;
+    text-align: center;
+}
+.TitleBiblioteca,.TitleCategories,.TitleNews,.TitleCart{
+    color: white;
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: #4e4e4e;
+    width: fit-content;
+    padding: 8px;
+}
+.buttons{
+    color: white;
+    background: #4e4e4e;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid #4e4e4e ;
+    margin-bottom: 40px;
+    padding: 8px;
+}
+.ordenJuegos{
+    color: white;
+    background: #4e4e4e;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid #4e4e4e ;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+.ul{
+    text-align: left;
+    color: white;
+}
+.paragraph{
+    padding-top: 60px;
+}
+.MarginImg{
+    margin-left: 20px;
+}
