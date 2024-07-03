@@ -1,41 +1,51 @@
-
-.TituloOferta,.SubTituloOferta{
+.TitleOferta,
+.SubTituloOferta {
     text-align: center;
     text-decoration: none;
     color: white;
 }
-.TituloOferta{
+
+.TitleOferta {
     margin-top: 60px;
 }
 
-
-body{
-background-color: rgba(54, 54, 54, 0.993);
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+    background-color: rgba(54, 54, 54, 0.993);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.imgOferta{
+.imgOferta {
     height: 380px;
     width: 460px;
     object-fit: cover;
     margin-top: 60px;
     border-radius: 10px;
     border: 4px white double;
+    margin: 15px;
 }
 
-.CenterImg{
-    margin-top: 40px;
+.CenterImg {
+    margin-top: 50px;
     text-align: center;
+    display: flex ;
+    justify-content: center;
+    justify-content: space-evenly;
 }
-.Center{
+.CenterImg2 {
+    margin-top: 50px;
     text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
 }
 
-.ImgPrice,.Price,.Name,.Categorie,.infoGame{
+.ImgPrice,
+.Name,
+.Categorie,
+.infoGame {
     color: white;
 }
 
-.TagGames{
+.TagGames {
     color: white;
     font-size: 20px;
     background: #4e4e4e;
@@ -44,22 +54,28 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: fit-content;
     margin-top: 100px;
 }
-.LatestGames{
-    padding-left: 40px;
+
+.LatestGames {
+    margin-left: 30px;
 }
 
-.footer{
-    background-color:#4e4e4e;
+.footer {
+    background-color: #4e4e4e;
     height: 100px;
     margin-top: 60px;
     border-top: 1px solid white;
 }
-.footer p{
+
+.footer p {
     color: white;
     margin: 16px;
     text-align: center;
 }
-.TitleBiblioteca,.TitleCategories,.TitleNews,.TitleCart{
+
+.TitleBiblioteca,
+.TitleCategories,
+.TitleNews,
+.TitleCart {
     color: white;
     margin-top: 170px;
     margin-left: 20px;
@@ -68,31 +84,64 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: fit-content;
     padding: 8px;
 }
-.buttons{
+
+.buttons {
     color: white;
     background: #4e4e4e;
     margin-left: 20px;
     outline: none;
-    border: 1px solid #4e4e4e ;
+    border: 1px solid #4e4e4e;
     margin-bottom: 40px;
     padding: 8px;
 }
-.ordenJuegos{
+
+.ordenJuegos {
     color: white;
     background: #4e4e4e;
     margin-left: 20px;
     outline: none;
-    border: 1px solid #4e4e4e ;
+    border: 1px solid #4e4e4e;
     margin-bottom: 30px;
     padding: 8px;
 }
-.ul{
+
+.ul {
     text-align: left;
     color: white;
 }
-.paragraph{
+
+.paragraph {
     padding-top: 60px;
 }
-.MarginImg{
+
+.MarginImg {
     margin-left: 20px;
+}
+.buttonsBiblioteca{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 320px){
+    .imgOferta{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        margin-top: 60px;
+        border-radius: 10px;
+        border: 4px white double;
+        margin: 10px;
+    }
+    .CenterImg{      
+    display: flex;
+    flex-direction: column;
+    }
+    .navbar{
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        top: 0;
+    }
+    .marginSpace{
+        margin-top: 40px;
+    }
 }
