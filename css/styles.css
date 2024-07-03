@@ -145,3 +145,8 @@ body {
         margin-top: 40px;
     }
 }
+
+.CenterImg{
+    display: flex;
+    flex-wrap: wrap;
+}
