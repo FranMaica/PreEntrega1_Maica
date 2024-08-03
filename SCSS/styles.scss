@@ -1,0 +1,229 @@
+@import "mq320.scss";
+
+.TitleOferta,
+.SubTituloOferta {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.TitleOferta {
+    margin-top: 60px;
+}
+
+body {
+    background-color: rgba(54, 54, 54, 0.993);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.imgOferta {
+    height: 380px;
+    width: 460px;
+    object-fit: cover;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 4px white double;
+    margin: 15px;
+    margin-right: 20px
+}
+
+.imgVenta {
+    height: 320px;
+    width: 400px;
+    object-fit: cover;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 4px white double;
+    margin: 7px;
+}
+
+.CenterImg {
+    margin-top: 50px;
+    text-align: center;
+    display: flex ;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.CenterImg2 {
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.ImgPrice,
+.Name,
+.Categorie,
+.infoGame {
+    color: white;
+
+}
+
+.TagGames {
+    color: white;
+    font-size: 20px;
+    background: #4e4e4e;
+    padding: 16px;
+    border-radius: 16px;
+    width: fit-content;
+    margin-top: 100px;
+}
+
+.LatestGames {
+    margin-left: 30px;
+}
+
+.footer {
+    background-color: #4e4e4e;
+    height: 100px;
+    margin-top: 60px;
+    border-top: 1px solid white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    color: white;
+    margin: 16px;
+    text-align: center;
+}
+
+
+.TitleBiblioteca,
+.TitleCategories,
+.TitleNews,
+.TitleCart {
+    color: white;
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: #4e4e4e;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 35px;
+}
+
+.buttons {
+    color: white;
+    background: #4e4e4e;
+    outline: none;
+    border: 1px solid #4e4e4e;
+    margin-bottom: 40px;
+    padding: 8px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.ordenJuegos {
+    color: white;
+    background: #4e4e4e;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid #4e4e4e;
+    margin-bottom: 30px;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.paragraph {
+    padding-top: 60px;
+}
+
+.MarginImg {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonsBiblioteca{
+    display: flex;
+    flex-direction: column;
+}
+
+.CenterImg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card{
+    background-color: #4e4e4e;
+    width: 500px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    border-radius: 16px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: 4px white double;
+}
+.card .info{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #666;
+    border-radius: 16px;
+    margin: 15px;
+    background-image: linear-gradient(to bottom, rgb(0, 22, 0), rgb(12, 87, 1));
+}
+.card .botton1{
+    text-decoration: none;
+    background-color: #666;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 50%;
+    border-radius: 16px;
+    margin: 15px;
+    background-image: linear-gradient(to left, rgb(0, 63, 0), rgb(0, 0, 0));
+}
+.card .botton1:hover{
+    background-color: #292929;
+}
+.IcosRedes{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.IconsFooter{
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+        color: white;
+}
+.text-aligned{
+    color: white;
+    width: 1400px
+}
+.buttonsCarrito{
+    color: white;
+    background: #4e4e4e;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid #4e4e4e;
+    margin-bottom: 40px;
+    padding: 8px;
+    border-radius: 16px;
+}
+.Info{
+    color: rgb(236, 22, 243);
+    margin-right: 20px;
+}
